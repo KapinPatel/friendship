@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>एक अप्रत्याशित दोस्त</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #1e1e1e;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+      background-image: url('./57beae78ce92afe68e3af11027b076d3.jpg');
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .container {
+      position: relative;
+      width: 90%;
+      max-width: 900px;
+      background-color: rgba(18, 18, 18, 0.8);
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+      text-align: center;
+      overflow: hidden;
+      z-index: 1;
+    }
+
+    .left-side-image, .right-side-image {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 25%;
+      z-index: -1;
+      object-fit: cover;
+    }
+
+    .left-side-image {
+      left: 0;
+    }
+
+    .right-side-image {
+      right: 0;
+    }
+
+    h2 {
+      font-size: 2.5em;
+      color: #3961f5;
+      margin-bottom: 20px;
+      animation: fadeInUp 0.8s ease-out;
+    }
+
+    @keyframes fadeInUp {
+      0% { opacity: 0; transform: translateY(30px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    .content-box {
+      background-color: rgba(0, 0, 0, 0.7);
+      color: #d1d1d1;
+      padding: 25px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      display: none; /* Hide all paragraphs initially */
+      opacity: 0;
+      animation: fadeIn 0.6s ease-out forwards;
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    .button-container {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    button {
+      background-color: #00b894;
+      color: white;
+      font-size: 1.1em;
+      padding: 14px 30px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s, transform 0.2s;
+    }
+
+    button:hover {
+      background-color: #02a57f;
+      transform: translateY(-3px);
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Left Side Image -->
+  <img class="left-side-image" src="./8c8e5298-2b31-4361-b4a5-091859166c55.jpeg" alt="Left Side Image">
+
+  <!-- Right Side Image -->
+  <img class="right-side-image" src="./08f705f5-78e4-4602-aacd-cd38c025a8d4.jpeg" alt="Right Side Image">
+
+  <div class="container">
+    <h2>एक अप्रत्याशित दोस्त</h2>
+
+    <!-- Paragraph Boxes -->
+    <div id="content-boxes">
+      <div class="content-box">
+        <p>यह कहानी एक लड़के और लड़की की दोस्ती की है, जो पूरी तरह से अप्रत्याशित तरीके से शुरू हुई। एक लड़का था, जो कभी भी किसी लड़की से बात नहीं करता था। उसे डर था कि यदि उसने किसी लड़की से बात की, तो वह हिचकिचाएगा और शर्मिंदा महसूस करेगा। जब वह प्राइमरी स्कूल में था, तब भी वह क्लास की लड़कियों से बात नहीं करता था। हर बार जब भी बातचीत होती, तो किसी न किसी कारण से लड़ाई हो जाती थी। फिर उसने हाई स्कूल के लिए स्कूल बदल लिया, लेकिन वहां भी उसका व्यवहार वही था।</p>
+      </div>
+
+      <div class="content-box">
+        <p>फिर जब वह 12वीं में पहुंचा, तो उसने धीरे-धीरे अपनी क्लास की लड़कियों से बात करने की हिम्मत जुटानी शुरू की।</p>
+      </div>
+
+      <div class="content-box">
+        <p>एक दिन स्कूल के मैदान में उसने एक मासूम सी लड़की को देखा, जो अकेली खड़ी थी। वह लड़की बहुत शांत और प्यारी थी। लड़के ने महसूस किया कि वह लड़की बाकी लड़कियों से अलग थी, उसकी मासूमियत में कुछ खास था। अगले दिन भी उसने उसे देखा और धीरे-धीरे यह पता किया कि वह लड़की उसी स्कूल में पढ़ाई के लिए आई है। जब यह जानकारी उसे मिली, तो उसकी खुशी का कोई ठिकाना नहीं रहा। वह चाहता था कि उससे बात करे, लेकिन वह थोड़ी संकोच कर रहा था।</p>
+      </div>
+
+      <div class="content-box">
+        <p>कुछ दिनों बाद यह पता चला कि वह लड़की उसके एक दोस्त की क्लास में थी। लड़के ने अपने दोस्त से उसका नाम पूछा और फिर फेसबुक पर उसकी प्रोफाइल ढूंढी। उसने उसे फ्रेंड रिक्वेस्ट भेजी, लेकिन वह नहीं जानता था कि लड़की उसकी रिक्वेस्ट स्वीकार करेगी या नहीं। लेकिन जब उसने देखा कि लड़की ने उसकी रिक्वेस्ट स्वीकार कर ली, तो उसकी खुशी का ठिकाना नहीं रहा।</p>
+      </div>
+
+      <div class="content-box">
+        <p>इसके बाद दोनों ने कई दिनों तक बातचीत की और एक-दूसरे से फोन नंबर भी एक्सचेंज किया। धीरे-धीरे उनकी दोस्ती मजबूत होती गई और लड़के को लड़की के प्रति आकर्षण महसूस होने लगा।</p>
+      </div>
+
+      <div class="content-box">
+        <p>एक दिन लड़के ने उससे पूछा, "क्या तुम चाहोगी कि हम हमेशा के लिए दोस्त बनें?" लड़की ने जवाब दिया, "हम एक-दूसरे को अच्छे से नहीं जानते, इसलिए मैं कुछ नहीं कह सकती।" लड़के ने इसे समझा और कहा, "कोई बात नहीं, जब भी तुम चाहो, हम बात कर सकते हैं।"</p>
+      </div>
+
+      <div class="content-box">
+        <p>समय के साथ उनकी दोस्ती और गहरी होती गई। लेकिन कभी-कभी स्कूल में कुछ लड़के लड़की को परेशान करने की कोशिश करते थे। लड़के को यह अच्छा नहीं लगता था और उसने यह तय किया कि वह लड़की की रक्षा करेगा।</p>
+      </div>
+
+      <div class="content-box">
+        <p>फिर एक दिन, कुछ दोस्तों के साथ घूमने जाने का प्लान हुआ। जब वे वापस लौट रहे थे, तो लड़की ने पहली बार लड़के का हाथ पकड़ लिया और सड़कों पर साथ चलने को कहा। वह पल लड़के के लिए बेहद खास था।</p>
+      </div>
+
+      <div class="content-box">
+        <p>कुछ समय बाद, लड़के की परीक्षा का समय आ गया, और वह उच्च माध्यमिक से निकल गया। परीक्षा के कुछ दिन पहले, लड़की ने उसे बताया कि उसे एक लड़का पसंद है। यह सुनकर लड़के को थोड़ा दुख हुआ, लेकिन उसने खुद को संभाला, क्योंकि वह जानता था कि उसके पास कोई अधिकार नहीं था।</p>
+      </div>
+
+      <div class="content-box">
+        <p>परीक्षाएं खत्म होने के बाद, लड़का कॉलेज चला गया। एक दिन, कॉलेज के लिए बस स्टॉप पर खड़ा था, तभी लड़की ने अपनी कोचिंग की छुट्टी के बाद उसे दूर से देखा और दौड़ते हुए उसके पास आई। यह पल लड़के के लिए बहुत खुशी का था। फिर उनकी मुलाकातें कम हो गईं, लेकिन फोन पर बातचीत जारी रही।</p>
+      </div>
+
+      <div class="content-box">
+        <p>कुछ समय बाद, लड़की ने उसे "दोस्त" कहकर संबोधित करना शुरू किया। अब वह उसे अपनी सबसे अच्छी दोस्त मानने लगी थी, और लड़के ने भी इसे पूरी तरह स्वीकार कर लिया।</p>
+      </div>
+
+      <div class="content-box">
+        <p>अब, लड़की बहुत परिपक्व हो गई है, लेकिन उसकी मासूमियत अब भी वही है। लड़का अब सिर्फ एक अच्छा दोस्त बन चुका है, और वह हमेशा उसकी खुशियों में शामिल होने की कोशिश करता है। वह चाहता है कि वह उसकी मदद करे, और जब भी उसे ज़रूरत पड़े, वह हमेशा उसका साथ देने के लिए तैयार रहता है।</p>
+      </div>
+
+      <div class="content-box">
+        <p>लड़का अपनी दोस्ती पर गर्व महसूस करता है और यह दुआ करता है कि लड़की की मासूमियत हमेशा बनी रहे और वह हमेशा खुश रहे। वह चाहता है कि लड़की को जीवन में जो कुछ भी चाहिए, वह सब कुछ मिले।</p>
+      </div>
+
+      <div class="content-box">
+        <p class="highlight">"धन्यवाद मेरी अच्छी दोस्त बनने के लिए, और मैं हमेशा तुम्हारे साथ हूं, तुम्हारी मदद के लिए।"</p>
+      </div>
+    </div>
+
+    <div class="button-container">
+      <button onclick="showNextParagraph()">Next Page</button>
+    </div>
+  </div>
+
+  <script>
+    let currentParagraph = 0;
+    const paragraphs = document.querySelectorAll('.content-box');
+
+    function showNextParagraph() {
+      if (currentParagraph < paragraphs.length) {
+        // Hide previous paragraph
+        if (currentParagraph > 0) {
+          paragraphs[currentParagraph - 1].style.display = 'none';
+        }
+
+        // Show the next paragraph
+        paragraphs[currentParagraph].style.display = 'block';
+        currentParagraph++;
+      }
+    }
+
+    // Show the first paragraph initially
+    paragraphs[0].style.display = 'block';
+
+  </script>
+
+</body>
+</html>
